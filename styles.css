@@ -13,9 +13,24 @@ a{
     color:#FFFFFF;
 }
 
+.TicketButton{
+    width: 160px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    background-color: #26D6C0;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+}
+
+.lightPink-bg{
+    background-color: #EFEFEF;
+}
 /* Header */
 #HeaderFormat{
     background-color: #f633a2;
+    text-align: center;
 }
 
 li{
@@ -25,6 +40,7 @@ li{
 
 header a:hover{
     color: #F9E22C; 
+    cursor: hand;
 }
 header a{
     font-size: 1.27em;
@@ -34,7 +50,71 @@ header a{
 header > div{
     height: fit-content;
     width: fit-content;
-    margin: 8px auto;
+    margin: 0px auto;
 }
 
+/*main section*/
+
+#feature{
+    height: 100vh;
+    width: auto;
+    background:url("assets/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+main > div{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: fit-content;
+    width: fit-content;
+    margin:auto;
+}
+
+main h1{
+    font-size: 100px;
+    font-family: 'Rubik Moonrocks', Arial, sans-serif;
+}
+
+main a{
+    margin-top: 30px;
+}
+
+main a:hover{
+    background-color: #F9E22C;
+    color: #f78400;
+}
+
+/* section 1*/
+
+.sectionB{
+    border: 3px green solid;
+    width: 70vw;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.PinkCell{
+    background-color: #f633a2;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+table, th, td{
+    border:20px white solid;
+    background-color: white;
+    padding:8px;
+}
+
+#spotify{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
