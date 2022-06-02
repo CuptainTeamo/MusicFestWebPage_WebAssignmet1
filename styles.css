@@ -15,8 +15,8 @@ a{
 
 .TicketButton{
     width: 160px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     border-radius: 30px;
     background-color: #26D6C0;
     display: inline-block;
@@ -24,8 +24,31 @@ a{
     font-size: 20px;
 }
 
-.lightPink-bg{
-    background-color: #EFEFEF;
+main a:hover, section a:hover{
+    background-color: #F9E22C;
+    color: #f78400;
+}
+
+.yellow-bg{
+    background-color: #F9E22C;
+}
+
+.white-bg{
+    background-color: white;
+}
+
+.special-ff{
+    font-family: 'Rubik Moonrocks', Arial, sans-serif;;
+}
+
+.centerFont{
+    text-align: center;
+}
+
+.sectionsWidth{
+    width: 70vw;
+    max-width: 1000px;
+    margin: auto;
 }
 /* Header */
 #HeaderFormat{
@@ -83,38 +106,139 @@ main h1{
 }
 
 main a{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
-main a:hover{
-    background-color: #F9E22C;
-    color: #f78400;
-}
-
-/* section 1*/
+/* section B*/
 
 .sectionB{
-    border: 3px green solid;
-    width: 70vw;
-    margin: auto;
-    max-width: 1000px;
+    background-color: #EFEFEF;
+    height: auto;
+    color: #333333;
+}
+
+.sectionB h1{
+    display: inline-block;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.sectionB h2{
+    font-size: 23px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+table{
+    background-color: white;
+}
+th, td{
+    border:15px white solid;
+    background-color: white;
+    padding:7px;
+}
+
+.tableContent{
+    width: 50vw;
+    min-width: 670px;
+    height: max-content;
+    font-size:larger;
+    font-weight:400;
 }
 
 .PinkCell{
+    display: inline-block;
     background-color: #f633a2;
     color: white;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
-}
-
-table, th, td{
-    border:20px white solid;
-    background-color: white;
-    padding:8px;
+    width: 115px;
+    height: fit-content;
+    padding: 20px;
+    margin: auto;
 }
 
 #spotify{
     margin-top: 50px;
+    min-width: 1000px;
+    padding-bottom: 50px;
+}
+
+/* section C*/
+
+#sectionC{
+    height: auto;
+}
+
+#sectionC h1{
+    display: inline-block;
+    font-size: 60px;
+    color: #f633a2;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+#sectionC h2{
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 100;
+    color: #f633a2;
     margin-bottom: 50px;
 }
 
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    color: #333333;
+    padding-bottom: 50px;
+}
+
+.gridHeight{
+    height: 400px;
+}
+
+#grid > div{
+    border-radius: 10px;
+}
+
+#grid i{
+    display: inline-block;
+    font-size: 65px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#grid h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#grid p{
+    color:#f633a2;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/*Footer*/
+
+#footerFormat{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+footer li{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 20px;
+}
+
+footer i{
+    font-size: 22px;
+}
