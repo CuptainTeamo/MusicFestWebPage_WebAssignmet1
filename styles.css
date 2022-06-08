@@ -77,7 +77,6 @@ header > div{
 }
 
 /*main section*/
-
 #feature{
     height: 100vh;
     width: auto;
@@ -110,21 +109,20 @@ main a{
 }
 
 /* section B*/
-
-.sectionB{
+#sectionB{
     background-color: #EFEFEF;
     height: auto;
     color: #333333;
 }
 
-.sectionB h1{
+#sectionB h1{
     display: inline-block;
     font-size: 60px;
     margin-top: 50px;
     margin-bottom: 5px;
 }
 
-.sectionB h2{
+#sectionB h2{
     font-size: 23px;
     font-weight: 100;
     margin-bottom: 50px;
@@ -157,6 +155,10 @@ th, td{
     height: fit-content;
     padding: 20px;
     margin: auto;
+}
+
+#sectionB span{
+    color: #f633a2;
 }
 
 #spotify{
