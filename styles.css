@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Fjalla One', Arial, 'sans-serif';
+    text-transform: uppercase;
 }
 
 a{
@@ -27,6 +28,7 @@ a{
 main a:hover, section a:hover{
     background-color: #F9E22C;
     color: #f78400;
+    cursor:pointer;
 }
 
 .yellow-bg{
@@ -35,10 +37,6 @@ main a:hover, section a:hover{
 
 .white-bg{
     background-color: white;
-}
-
-.special-ff{
-    font-family: 'Rubik Moonrocks', Arial, sans-serif;;
 }
 
 .centerFont{
@@ -63,7 +61,7 @@ li{
 
 header a:hover{
     color: #F9E22C; 
-    cursor: hand;
+    cursor: pointer;
 }
 header a{
     font-size: 1.27em;
@@ -102,6 +100,12 @@ main > div{
 main h1{
     font-size: 100px;
     font-family: 'Rubik Moonrocks', Arial, sans-serif;
+    font-weight: 400;
+}
+
+main h2{
+    font-weight: bolder;
+    font-size: 34px;
 }
 
 main a{
@@ -116,21 +120,26 @@ main a{
 }
 
 #sectionB h1{
+    font-family: 'Rubik Moonrocks', Arial, sans-serif;
     display: inline-block;
     font-size: 60px;
     margin-top: 50px;
     margin-bottom: 5px;
 }
 
-#sectionB h2{
-    font-size: 23px;
-    font-weight: 100;
+#sectionB p{
+    text-transform: none;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 19px;
+    font-weight:500;
     margin-bottom: 50px;
+    margin-top: 8px;
 }
 
 table{
     background-color: white;
 }
+
 th, td{
     border:15px white solid;
     background-color: white;
@@ -141,7 +150,7 @@ th, td{
     width: 50vw;
     min-width: 670px;
     height: max-content;
-    font-size:larger;
+    font-size: 18px;;
     font-weight:400;
 }
 
@@ -149,7 +158,7 @@ th, td{
     display: inline-block;
     background-color: #f633a2;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     width: 115px;
     height: fit-content;
@@ -167,6 +176,11 @@ th, td{
     padding-bottom: 50px;
 }
 
+iframe{
+    border-radius: 12px;
+}
+
+
 /* section C*/
 
 #sectionC{
@@ -174,16 +188,19 @@ th, td{
 }
 
 #sectionC h1{
+    font-family: 'Rubik Moonrocks', Arial, sans-serif;
     display: inline-block;
     font-size: 60px;
     color: #f633a2;
     margin-top: 50px;
     margin-bottom: 5px;
 }
-#sectionC h2{
-    display: inline-block;
-    font-size: 23px;
-    font-weight: 100;
+#sectionC > div > p{
+    text-transform: none;
+    font-family: 'Roboto', Arial, sans-serif;
+    display: block;
+    font-size: 19px;
+    font-weight:bolder;
     color: #f633a2;
     margin-bottom: 50px;
 }
