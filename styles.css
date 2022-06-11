@@ -77,6 +77,7 @@ header > div{
 /*main section*/
 #feature{
     height: 100vh;
+    min-height: 650px;
     width: auto;
     background:url("assets/background.png");
     background-size: cover;
@@ -84,14 +85,11 @@ header > div{
     background-repeat: no-repeat;
     text-align: center;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 main > div{
-    position: absolute;
-    top:0;
-    bottom: 0;
-    right: 0;
-    left: 0;
     height: fit-content;
     width: fit-content;
     margin:auto;
@@ -101,6 +99,7 @@ main h1{
     font-size: 100px;
     font-family: 'Rubik Moonrocks', Arial, sans-serif;
     font-weight: 400;
+    margin-top: auto;
 }
 
 main h2{
